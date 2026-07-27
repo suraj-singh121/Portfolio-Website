@@ -2,7 +2,6 @@
 
 A Data-Driven ML Engineer & Data Analyst portfolio built with React, TypeScript, and Three.js — featuring interactive 3D visuals, smooth scroll animations, and a clean dark UI.
 
-![Portfolio Preview](./preview.png)
 
 ---
 
