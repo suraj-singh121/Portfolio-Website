@@ -2,7 +2,7 @@ import "./styles/Career.css";
 
 const Career = () => {
   return (
-    <div className="career-section section-container">
+    <div className="career-section section-container" id="career">
       <div className="career-container">
         <h2>
           My career <span>&</span>
@@ -15,43 +15,40 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>SQL Trainer & Data Support</h4>
+                <h5>Zylentrix</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025 - 2026</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Delivered SQL training covering joins, aggregations, filtering, and database concepts.
+              Assisted teams with writing optimized queries, troubleshooting database issues, creating dashboards, and performing data analysis to generate operational insights.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>B.Tech in CSE</h4>
+                <h5>Lovely Professional University</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>EDUCATION</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Undergraduate degree in Computer Science and Engineering at LPU Punjab. Completed XII from St. Joseph International School (Kota) and X from Army Public School Kirkee (Pune).
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Certifications & Achievements</h4>
+                <h5>Global Certs & Sports</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>HONORS</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              • Theory of Computation (Coursera), DSA in C++ (GeeksforGeeks), Python Foundations (NxtWave)<br />
+              • Solved 200+ LeetCode problems & built 100+ web apps<br />
+              • Represented Telangana State in National Football Championship
             </p>
           </div>
         </div>

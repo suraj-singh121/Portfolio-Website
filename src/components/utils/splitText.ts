@@ -33,11 +33,11 @@ export default function setSplitText() {
 
     para.anim = gsap.fromTo(
       para.split.words,
-      { autoAlpha: 0, y: 80 },
+      { opacity: 1, y: 30 },
       {
-        autoAlpha: 1,
+        opacity: 1,
         scrollTrigger: {
-          trigger: para.parentElement?.parentElement,
+          trigger: para.parentElement?.parentElement || para,
           toggleActions: ToggleAction,
           start: TriggerStart,
         },
@@ -59,11 +59,11 @@ export default function setSplitText() {
     });
     title.anim = gsap.fromTo(
       title.split.chars,
-      { autoAlpha: 0, y: 80, rotate: 10 },
+      { opacity: 1, y: 30 },
       {
-        autoAlpha: 1,
+        opacity: 1,
         scrollTrigger: {
-          trigger: title.parentElement?.parentElement,
+          trigger: title.parentElement?.parentElement || title,
           toggleActions: ToggleAction,
           start: TriggerStart,
         },
@@ -75,6 +75,4 @@ export default function setSplitText() {
       }
     );
   });
-
-  ScrollTrigger.addEventListener("refresh", () => setSplitText());
 }

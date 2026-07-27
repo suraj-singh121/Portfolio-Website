@@ -6,9 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Data-driven Computer Science undergraduate skilled in Data Analytics,
+          Machine Learning, Data Engineering, and Full Stack Development.
+          Experienced in building scalable data pipelines, KPI dashboards,
+          predictive models, and full-stack web applications. Strong expertise
+          in Python, SQL, Power BI, and Django with a focus on solving complex
+          business problems using data.
         </p>
       </div>
     </div>
